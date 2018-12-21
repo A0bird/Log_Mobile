@@ -1,4 +1,4 @@
-package com.mobile.QFLAP;
+package com.mobile.examine;
 
 import com.mobile.Util.Fsutil;
 import org.apache.hadoop.conf.Configuration;
