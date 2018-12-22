@@ -1,6 +1,7 @@
 package com.mobile.examine;
 
-import com.mobile.Util.Fsutil;
+
+import com.mobile.etl.util.Fsutil;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
@@ -17,10 +18,10 @@ import org.apache.log4j.Logger;
  * @Date: 2018/12/21 21:53
  * @Description:
  */
-public class answerRunner implements Tool {
+public class answerRunner implements Tool{
     private static final Logger logger=Logger.getLogger(answerRunner.class);
     private Configuration conf=null;
-    @Override
+
     public int run(String[] args) throws Exception {
         conf=this.getConf();
 
@@ -46,14 +47,10 @@ public class answerRunner implements Tool {
         return job.waitForCompletion(true)?1:0;
     }
 
-
-
-    @Override
-    public void setConf(Configuration configuration) {
-            this.conf=configuration;
+    public void setConf(Configuration conf) {
+        this.conf=conf;
     }
 
-    @Override
     public Configuration getConf() {
         return this.conf;
     }

@@ -39,7 +39,7 @@ public class answerMapper extends Mapper<LongWritable,Text,objective_answer,Null
         answer_paper.setStart_date(fields[8]);
         answer_paper.setObjective_mark(fields[11]);
         String answer_json = fields[16];
-        if (StringUtils.isEmpty(answer_json)) {
+        if (StringUtils.isEmpty(answer_json)||answer_json.equals("")) {
             return;
         }
         JSONObject fromObject = JSONObject.fromObject(answer_json);
@@ -47,7 +47,7 @@ public class answerMapper extends Mapper<LongWritable,Text,objective_answer,Null
         Set<String> set = fromObject.keySet();
 
         for (String jsonKey : set) {
-            if (jsonKey.isEmpty()) {
+            if (StringUtils.isEmpty(jsonKey)) {
                 return;
             } else {
                 //将json 的value值转化为string
