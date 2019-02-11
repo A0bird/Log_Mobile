@@ -1,0 +1,62 @@
+<component name="libraryTable">
+  <library name="antlr">
+    <CLASSES>
+      <root url="file://D:/m2/repository/antlr" />
+      <root url="file://D:/m2/repository/aopalliance" />
+      <root url="file://D:/m2/repository/asm" />
+      <root url="file://D:/m2/repository/avalon-framework" />
+      <root url="file://D:/m2/repository/backport-util-concurrent" />
+      <root url="file://D:/m2/repository/c3p0" />
+      <root url="file://D:/m2/repository/ch" />
+      <root url="file://D:/m2/repository/classworlds" />
+      <root url="file://D:/m2/repository/com" />
+      <root url="file://D:/m2/repository/commons-beanutils" />
+      <root url="file://D:/m2/repository/commons-chain" />
+      <root url="file://D:/m2/repository/commons-cli" />
+      <root url="file://D:/m2/repository/commons-codec" />
+      <root url="file://D:/m2/repository/commons-collections" />
+      <root url="file://D:/m2/repository/commons-configuration" />
+      <root url="file://D:/m2/repository/commons-daemon" />
+      <root url="file://D:/m2/repository/commons-dbcp" />
+      <root url="file://D:/m2/repository/commons-digester" />
+      <root url="file://D:/m2/repository/commons-el" />
+      <root url="file://D:/m2/repository/commons-fileupload" />
+      <root url="file://D:/m2/repository/commons-httpclient" />
+      <root url="file://D:/m2/repository/commons-io" />
+      <root url="file://D:/m2/repository/commons-lang" />
+      <root url="file://D:/m2/repository/commons-logging" />
+      <root url="file://D:/m2/repository/commons-net" />
+      <root url="file://D:/m2/repository/commons-pool" />
+      <root url="file://D:/m2/repository/commons-validator" />
+      <root url="file://D:/m2/repository/cz" />
+      <root url="file://D:/m2/repository/dom4j" />
+      <root url="file://D:/m2/repository/eigenbase" />
+      <root url="file://D:/m2/repository/hsqldb" />
+      <root url="file://D:/m2/repository/io" />
+      <root url="file://D:/m2/repository/javax" />
+      <root url="file://D:/m2/repository/jdom" />
+      <root url="file://D:/m2/repository/jexcelapi" />
+      <root url="file://D:/m2/repository/jline" />
+      <root url="file://D:/m2/repository/joda-time" />
+      <root url="file://D:/m2/repository/jsptags" />
+      <root url="file://D:/m2/repository/jstl" />
+      <root url="file://D:/m2/repository/junit" />
+      <root url="file://D:/m2/repository/log4j" />
+      <root url="file://D:/m2/repository/logkit" />
+      <root url="file://D:/m2/repository/mysql" />
+      <root url="file://D:/m2/repository/net" />
+      <root url="file://D:/m2/repository/org" />
+      <root url="file://D:/m2/repository/oro" />
+      <root url="file://D:/m2/repository/sslext" />
+      <root url="file://D:/m2/repository/stax" />
+      <root url="file://D:/m2/repository/tomcat" />
+      <root url="file://D:/m2/repository/xerces" />
+      <root url="file://D:/m2/repository/xml-apis" />
+      <root url="file://D:/m2/repository/xmlenc" />
+      <root url="file://D:/m2/repository/xmlpull" />
+      <root url="file://D:/m2/repository/xpp3" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

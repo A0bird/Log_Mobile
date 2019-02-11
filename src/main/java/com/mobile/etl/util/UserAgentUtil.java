@@ -2,7 +2,6 @@ package com.mobile.etl.util;
 
 import cz.mallat.uasparser.OnlineUpdater;
 import cz.mallat.uasparser.UASparser;
-import cz.mallat.uasparser.UserAgentInfo;
 import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;
 
@@ -45,7 +44,12 @@ public class UserAgentUtil {
             if(uinfo != null){
                 info = new UserAgentInfo();
                 info.setBrowserName(uinfo.getUaFamily());
-                info.setBrowserVersion(uinfo.getBrowserVersionInfo());
+                if(uinfo.getBrowserVersionInfo()==null){
+                    info.setBrowserVersion("unknown");
+                }else {
+                    info.setBrowserVersion(uinfo.getBrowserVersionInfo());
+                }
+
                 info.setOsName(uinfo.getOsFamily());
                 info.setOsVersion(uinfo.getOsName());
             }

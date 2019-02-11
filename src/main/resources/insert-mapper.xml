@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<!--name为kpiname value为kpi对应的赋值类-->
+<configuration>
+    <property>
+        <name>writer_browser_new_user</name>
+        <value>com.mobile.paser.MR.NU.NewUserWritter</value>
+    </property>
+    <property>
+        <name>writer_new_user</name>
+        <value>com.mobile.paser.MR.NU.NewUserWritter</value>
+    </property>
+    <property>
+        <name>writer_new_member</name>
+        <value>com.mobile.paser.MR.NM.NewMemberWriter</value>
+    </property>
+    <property>
+        <name>writer_browser_new_member</name>
+        <value>com.mobile.paser.MR.NM.NewMemberWriter</value>
+    </property>
+    <property>
+        <name>writer_active_members</name>
+        <value>com.mobile.paser.MR.AM.ActiveMemberWriter</value>
+    </property>
+    <property>
+        <name>writer_browser_active_members</name>
+        <value>com.mobile.paser.MR.AM.ActiveMemberWriter</value>
+    </property>
+    <property>
+        <name>writer_browser_active_user</name>
+        <value>com.mobile.paser.MR.AU.ActiveUserWriter</value>
+    </property>
+
+    <property>
+        <name>writer_active_user</name>
+        <value>com.mobile.paser.MR.AU.ActiveUserWriter</value>
+    </property>
+
+    <property>
+        <name>writer_browser_sessions</name>
+        <value>com.mobile.paser.MR.session.SeesionWriter</value>
+    </property>
+
+    <property>
+        <name>writer_sessions</name>
+        <value>com.mobile.paser.MR.session.SeesionWriter</value>
+    </property>
+
+
+    <property>
+        <name>writer_hourly_active_user</name>
+        <value>com.mobile.paser.MR.AU.ActiveUserWriter</value>
+    </property>
+    pv_browser
+
+    <property>
+        <name>writer_pv_browser</name>
+        <value>com.mobile.paser.MR.PV.PVWritter</value>
+    </property>
+    <property>
+        <name>writer_location</name>
+        <value>com.mobile.paser.MR.location.locationWriter</value>
+    </property>
+</configuration>
