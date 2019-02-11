@@ -1,4 +1,4 @@
-import java.io.UnsupportedEncodingException;
+import com.mobile.etl.util.UserAgentUtil;
 
 /**
  * @ClassName UserAgentTest
